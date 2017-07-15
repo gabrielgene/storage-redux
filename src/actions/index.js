@@ -6,6 +6,6 @@ export function addStorage(item) {
   return {type: ADD_STORAGE, item }
 }
 
-export function removeStorage(item) {
-  return {type: REMOVE_STORAGE, item}
+export function removeStorage(id) {
+  return {type: REMOVE_STORAGE, id}
 }
